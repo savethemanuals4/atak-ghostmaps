@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>S2 GhostMaps (auto-updating)</name>
+    <description>Generated 2026-09-02 16:30 UTC. Links resolve to the newest export in each GhostMaps folder.</description>
+    <Folder>
+      <name>Common Intelligence Picture</name>
+      <NetworkLink>
+        <name>CIP Master Database (latest)</name>
+        <description>S2Underground_Common_Intelligence_Picture_September_01_2026_Export_1.kmz</description>
+        <Link>
+          <href>https://raw.githubusercontent.com/s2underground/GhostMaps/main/ArcGIS%20Data%20for%20ATAK%20%28KMZs%29/Common%20Intelligence%20Picture/Master%20Database/S2Underground_Common_Intelligence_Picture_September_01_2026_Export_1.kmz</href>
+          <refreshMode>onInterval</refreshMode>
+          <refreshInterval>3600</refreshInterval>
+        </Link>
+      </NetworkLink>
+      <NetworkLink>
+        <name>Kinetic Activities - Last 30 Days</name>
+        <description>Kinetic_Activities_Last_30_Days.kmz</description>
+        <Link>
+          <href>https://raw.githubusercontent.com/s2underground/GhostMaps/main/ArcGIS%20Data%20for%20ATAK%20%28KMZs%29/Common%20Intelligence%20Picture/30-Day%20Pulls/Kinetic_Activities_Last_30_Days.kmz</href>
+          <refreshMode>onInterval</refreshMode>
+          <refreshInterval>3600</refreshInterval>
+        </Link>
+      </NetworkLink>
+    </Folder>
+    <Folder>
+      <name>Border Crisis Map</name>
+      <NetworkLink>
+        <name>Border Crisis Map (latest)</name>
+        <description>S2Underground_Border_Crisis_Map_August_19_2026_Export_v1.kmz</description>
+        <Link>
+          <href>https://raw.githubusercontent.com/s2underground/GhostMaps/main/ArcGIS%20Data%20for%20ATAK%20%28KMZs%29/Border%20Crisis%20Map/S2Underground_Border_Crisis_Map_August_19_2026_Export_v1.kmz</href>
+          <refreshMode>onInterval</refreshMode>
+          <refreshInterval>3600</refreshInterval>
+        </Link>
+      </NetworkLink>
+      <NetworkLink>
+        <name>Europe Migration Crisis (latest)</name>
+        <description>Europe_Migration_Crisis_June_02_2026_v1.kmz</description>
+        <Link>
+          <href>https://raw.githubusercontent.com/s2underground/GhostMaps/main/ArcGIS%20Data%20for%20ATAK%20%28KMZs%29/Border%20Crisis%20Map/European%20Layers%20Only/Europe_Migration_Crisis_June_02_2026_v1.kmz</href>
+          <refreshMode>onInterval</refreshMode>
+          <refreshInterval>3600</refreshInterval>
+        </Link>
+      </NetworkLink>
+    </Folder>
+  </Document>
+</kml>
