@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>S2 GhostMaps (auto-updating)</name>
-    <description>Generated 2026-09-02 17:23 UTC. Links resolve to the newest export in each GhostMaps folder.</description>
+    <description>Generated 2026-09-02 17:28 UTC. Links resolve to the newest export in each GhostMaps folder.</description>
     <Folder>
       <name>Common Intelligence Picture</name>
       <NetworkLink>
@@ -88,6 +88,45 @@
         <description>Middle East Pipelines.kmz</description>
         <Link>
           <href>https://raw.githubusercontent.com/s2underground/GhostMaps/main/Incident%20Response%20Products%20for%20ATAK%20%28KMZs%20and%20Documents%29/Iran%202026/Basedata/Middle%20East%20Pipelines.kmz</href>
+          <refreshMode>onInterval</refreshMode>
+          <refreshInterval>3600</refreshInterval>
+        </Link>
+      </NetworkLink>
+    </Folder>
+    <Folder>
+      <name>Middle East Crisis 2026</name>
+      <NetworkLink>
+        <name>Middle East Master IPB (latest)</name>
+        <description>Middle East Master IPB_February_18_2026.kmz</description>
+        <Link>
+          <href>https://raw.githubusercontent.com/s2underground/GhostMaps/main/Incident%20Response%20Products%20for%20ATAK%20%28KMZs%20and%20Documents%29/Middle%20East%20Crisis%202026/Middle%20East%20Master%20IPB_February_18_2026.kmz</href>
+          <refreshMode>onInterval</refreshMode>
+          <refreshInterval>3600</refreshInterval>
+        </Link>
+      </NetworkLink>
+      <NetworkLink>
+        <name>Lebanon Conflict Zones (latest)</name>
+        <description>LebanonConflictZones_April_8_2026.kmz</description>
+        <Link>
+          <href>https://raw.githubusercontent.com/s2underground/GhostMaps/main/Incident%20Response%20Products%20for%20ATAK%20%28KMZs%20and%20Documents%29/Middle%20East%20Crisis%202026/LebanonConflictZones_April_8_2026.kmz</href>
+          <refreshMode>onInterval</refreshMode>
+          <refreshInterval>3600</refreshInterval>
+        </Link>
+      </NetworkLink>
+      <NetworkLink>
+        <name>Litani River</name>
+        <description>Litani_River.kmz</description>
+        <Link>
+          <href>https://raw.githubusercontent.com/s2underground/GhostMaps/main/Incident%20Response%20Products%20for%20ATAK%20%28KMZs%20and%20Documents%29/Middle%20East%20Crisis%202026/Litani_River.kmz</href>
+          <refreshMode>onInterval</refreshMode>
+          <refreshInterval>3600</refreshInterval>
+        </Link>
+      </NetworkLink>
+      <NetworkLink>
+        <name>Zahran River</name>
+        <description>Zahran River.kmz</description>
+        <Link>
+          <href>https://raw.githubusercontent.com/s2underground/GhostMaps/main/Incident%20Response%20Products%20for%20ATAK%20%28KMZs%20and%20Documents%29/Middle%20East%20Crisis%202026/Zahran%20River.kmz</href>
           <refreshMode>onInterval</refreshMode>
           <refreshInterval>3600</refreshInterval>
         </Link>
