@@ -14,6 +14,7 @@ from xml.sax.saxutils import escape
 
 OWNER, REPO, BRANCH = "s2underground", "GhostMaps", "main"
 ROOT = "ArcGIS Data for ATAK (KMZs)"
+IRP = "Incident Response Products for ATAK (KMZs and Documents)"
 RAW = f"https://raw.githubusercontent.com/{OWNER}/{REPO}/{BRANCH}/"
 REFRESH_SECONDS = 3600
 # Optional: path to a local clone of GhostMaps (used by the workflow); else GitHub API
@@ -30,14 +31,27 @@ PRODUCTS = [
      f"{ROOT}/Border Crisis Map", "S2Underground_Border_Crisis_Map"),
     ("Border Crisis Map", "Europe Migration Crisis (latest)",
      f"{ROOT}/Border Crisis Map/European Layers Only", "Europe_Migration_Crisis"),
+    ("Iran 2026", "Iran Common Intelligence Picture (latest)",
+     f"{IRP}/Iran 2026/Iran Common Intelligence Picture", "Iran_CIP"),
+    ("Iran 2026", "Iran Kinetic Events (latest)",
+     f"{IRP}/Iran 2026/Iran Kinetic Events", "Iran_Kinetic_Events"),
+    # Undated base layers: newest = highest " vN" suffix (or the only file)
+    ("Iran 2026", "Persian Gulf Critical Infrastructure",
+     f"{IRP}/Iran 2026/Basedata", "Persian Gulf Critical Infrastructure"),
+    ("Iran 2026", "IRGCN Minefield",
+     f"{IRP}/Iran 2026/Basedata", "IRGCN Minefield"),
+    ("Iran 2026", "Middle East Pipelines",
+     f"{IRP}/Iran 2026/Basedata", "Middle East Pipelines"),
 ]
 
-DATE_RE = re.compile(r"_([A-Z][a-z]+)_(\d{1,2})_(\d{4})_(?:Export_)?v?(\d+)")
+DATE_RE = re.compile(r"_([A-Z][a-z]+)_(\d{1,2})_(\d{4})_(?:Export_)?[vV]?(\d+)")
+VER_RE = re.compile(r"[ _][vV](\d+)\.kmz$", re.I)
 
 def file_key(name):
     m = DATE_RE.search(name)
     if not m:
-        return (datetime.min, 0)
+        v = VER_RE.search(name)
+        return (datetime.min, int(v.group(1)) if v else 0)
     mon, day, year, rev = m.groups()
     try:
         return (datetime.strptime(f"{mon} {day} {year}", "%B %d %Y"), int(rev))
