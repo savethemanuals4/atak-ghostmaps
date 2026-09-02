@@ -2,14 +2,14 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>S2 GhostMaps (auto-updating)</name>
-    <description>Generated 2026-09-02 17:28 UTC. Links resolve to the newest export in each GhostMaps folder.</description>
+    <description>Generated 2026-09-02 21:05 UTC. Links resolve to the newest export in each GhostMaps folder.</description>
     <Folder>
       <name>Common Intelligence Picture</name>
       <NetworkLink>
         <name>CIP Master Database (latest)</name>
-        <description>S2Underground_Common_Intelligence_Picture_September_01_2026_Export_1.kmz</description>
+        <description>S2Underground_Common_Intelligence_Picture_September_02_2026_Export_1.kmz</description>
         <Link>
-          <href>https://raw.githubusercontent.com/s2underground/GhostMaps/main/ArcGIS%20Data%20for%20ATAK%20%28KMZs%29/Common%20Intelligence%20Picture/Master%20Database/S2Underground_Common_Intelligence_Picture_September_01_2026_Export_1.kmz</href>
+          <href>https://raw.githubusercontent.com/s2underground/GhostMaps/main/ArcGIS%20Data%20for%20ATAK%20%28KMZs%29/Common%20Intelligence%20Picture/Master%20Database/S2Underground_Common_Intelligence_Picture_September_02_2026_Export_1.kmz</href>
           <refreshMode>onInterval</refreshMode>
           <refreshInterval>3600</refreshInterval>
         </Link>
