@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>S2 GhostMaps (auto-updating)</name>
-    <description>Generated 2026-09-02 17:11 UTC. Links resolve to the newest export in each GhostMaps folder.</description>
+    <description>Generated 2026-09-02 17:23 UTC. Links resolve to the newest export in each GhostMaps folder.</description>
     <Folder>
       <name>Common Intelligence Picture</name>
       <NetworkLink>
@@ -40,6 +40,54 @@
         <description>Europe_Migration_Crisis_June_02_2026_v1.kmz</description>
         <Link>
           <href>https://raw.githubusercontent.com/s2underground/GhostMaps/main/ArcGIS%20Data%20for%20ATAK%20%28KMZs%29/Border%20Crisis%20Map/European%20Layers%20Only/Europe_Migration_Crisis_June_02_2026_v1.kmz</href>
+          <refreshMode>onInterval</refreshMode>
+          <refreshInterval>3600</refreshInterval>
+        </Link>
+      </NetworkLink>
+    </Folder>
+    <Folder>
+      <name>Iran 2026</name>
+      <NetworkLink>
+        <name>Iran Common Intelligence Picture (latest)</name>
+        <description>Iran_CIP_June_06_2026_v1.kmz</description>
+        <Link>
+          <href>https://raw.githubusercontent.com/s2underground/GhostMaps/main/Incident%20Response%20Products%20for%20ATAK%20%28KMZs%20and%20Documents%29/Iran%202026/Iran%20Common%20Intelligence%20Picture/Iran_CIP_June_06_2026_v1.kmz</href>
+          <refreshMode>onInterval</refreshMode>
+          <refreshInterval>3600</refreshInterval>
+        </Link>
+      </NetworkLink>
+      <NetworkLink>
+        <name>Iran Kinetic Events (latest)</name>
+        <description>Iran_Kinetic_Events_August_24_2026_v1.kmz</description>
+        <Link>
+          <href>https://raw.githubusercontent.com/s2underground/GhostMaps/main/Incident%20Response%20Products%20for%20ATAK%20%28KMZs%20and%20Documents%29/Iran%202026/Iran%20Kinetic%20Events/Iran_Kinetic_Events_August_24_2026_v1.kmz</href>
+          <refreshMode>onInterval</refreshMode>
+          <refreshInterval>3600</refreshInterval>
+        </Link>
+      </NetworkLink>
+      <NetworkLink>
+        <name>Persian Gulf Critical Infrastructure</name>
+        <description>Persian Gulf Critical Infrastructure v4.kmz</description>
+        <Link>
+          <href>https://raw.githubusercontent.com/s2underground/GhostMaps/main/Incident%20Response%20Products%20for%20ATAK%20%28KMZs%20and%20Documents%29/Iran%202026/Basedata/Persian%20Gulf%20Critical%20Infrastructure%20v4.kmz</href>
+          <refreshMode>onInterval</refreshMode>
+          <refreshInterval>3600</refreshInterval>
+        </Link>
+      </NetworkLink>
+      <NetworkLink>
+        <name>IRGCN Minefield</name>
+        <description>IRGCN Minefield v2.kmz</description>
+        <Link>
+          <href>https://raw.githubusercontent.com/s2underground/GhostMaps/main/Incident%20Response%20Products%20for%20ATAK%20%28KMZs%20and%20Documents%29/Iran%202026/Basedata/IRGCN%20Minefield%20v2.kmz</href>
+          <refreshMode>onInterval</refreshMode>
+          <refreshInterval>3600</refreshInterval>
+        </Link>
+      </NetworkLink>
+      <NetworkLink>
+        <name>Middle East Pipelines</name>
+        <description>Middle East Pipelines.kmz</description>
+        <Link>
+          <href>https://raw.githubusercontent.com/s2underground/GhostMaps/main/Incident%20Response%20Products%20for%20ATAK%20%28KMZs%20and%20Documents%29/Iran%202026/Basedata/Middle%20East%20Pipelines.kmz</href>
           <refreshMode>onInterval</refreshMode>
           <refreshInterval>3600</refreshInterval>
         </Link>
