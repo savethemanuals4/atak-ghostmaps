@@ -42,9 +42,17 @@ PRODUCTS = [
      f"{IRP}/Iran 2026/Basedata", "IRGCN Minefield"),
     ("Iran 2026", "Middle East Pipelines",
      f"{IRP}/Iran 2026/Basedata", "Middle East Pipelines"),
+    ("Middle East Crisis 2026", "Middle East Master IPB (latest)",
+     f"{IRP}/Middle East Crisis 2026", "Middle East Master IPB"),
+    ("Middle East Crisis 2026", "Lebanon Conflict Zones (latest)",
+     f"{IRP}/Middle East Crisis 2026", "LebanonConflictZones"),
+    ("Middle East Crisis 2026", "Litani River",
+     f"{IRP}/Middle East Crisis 2026", "Litani_River"),
+    ("Middle East Crisis 2026", "Zahran River",
+     f"{IRP}/Middle East Crisis 2026", "Zahran River"),
 ]
 
-DATE_RE = re.compile(r"_([A-Z][a-z]+)_(\d{1,2})_(\d{4})_(?:Export_)?[vV]?(\d+)")
+DATE_RE = re.compile(r"_([A-Z][a-z]+)_(\d{1,2})_(\d{4})(?:_(?:Export_)?[vV]?(\d+))?")
 VER_RE = re.compile(r"[ _][vV](\d+)\.kmz$", re.I)
 
 def file_key(name):
@@ -54,7 +62,7 @@ def file_key(name):
         return (datetime.min, int(v.group(1)) if v else 0)
     mon, day, year, rev = m.groups()
     try:
-        return (datetime.strptime(f"{mon} {day} {year}", "%B %d %Y"), int(rev))
+        return (datetime.strptime(f"{mon} {day} {year}", "%B %d %Y"), int(rev or 0))
     except ValueError:
         return (datetime.min, 0)
 
