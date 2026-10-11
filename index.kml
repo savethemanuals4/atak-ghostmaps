@@ -2,14 +2,14 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>S2 GhostMaps (auto-updating)</name>
-    <description>Generated 2026-10-10 21:47 UTC. Links resolve to the newest export in each GhostMaps folder.</description>
+    <description>Generated 2026-10-11 05:51 UTC. Links resolve to the newest export in each GhostMaps folder.</description>
     <Folder>
       <name>Common Intelligence Picture</name>
       <NetworkLink>
         <name>CIP Master Database (latest)</name>
-        <description>S2Underground_Common_Intelligence_Picture_October_5_2026_Export_1.kmz</description>
+        <description>S2Underground_Common_Intelligence_Picture_October_9_2026_Export_1.kmz</description>
         <Link>
-          <href>https://raw.githubusercontent.com/s2underground/GhostMaps/main/ArcGIS%20Data%20for%20ATAK%20%28KMZs%29/Common%20Intelligence%20Picture/Master%20Database/S2Underground_Common_Intelligence_Picture_October_5_2026_Export_1.kmz</href>
+          <href>https://raw.githubusercontent.com/s2underground/GhostMaps/main/ArcGIS%20Data%20for%20ATAK%20%28KMZs%29/Common%20Intelligence%20Picture/Master%20Database/S2Underground_Common_Intelligence_Picture_October_9_2026_Export_1.kmz</href>
           <refreshMode>onInterval</refreshMode>
           <refreshInterval>3600</refreshInterval>
         </Link>
@@ -49,18 +49,18 @@
       <name>Iran 2026</name>
       <NetworkLink>
         <name>Iran Common Intelligence Picture (latest)</name>
-        <description>Iran_CIP_June_06_2026_v1.kmz</description>
+        <description>Iran_CIP_October_10_2026_v1.kmz</description>
         <Link>
-          <href>https://raw.githubusercontent.com/s2underground/GhostMaps/main/Incident%20Response%20Products%20for%20ATAK%20%28KMZs%20and%20Documents%29/Iran%202026/Iran%20Common%20Intelligence%20Picture/Iran_CIP_June_06_2026_v1.kmz</href>
+          <href>https://raw.githubusercontent.com/s2underground/GhostMaps/main/Incident%20Response%20Products%20for%20ATAK%20%28KMZs%20and%20Documents%29/Iran%202026/Iran%20Common%20Intelligence%20Picture/Iran_CIP_October_10_2026_v1.kmz</href>
           <refreshMode>onInterval</refreshMode>
           <refreshInterval>3600</refreshInterval>
         </Link>
       </NetworkLink>
       <NetworkLink>
         <name>Iran Kinetic Events (latest)</name>
-        <description>Iran_Kinetic_Events_October_5_2026_v1.kmz</description>
+        <description>Iran_Kinetic_Events_October_10_2026_v2.kmz</description>
         <Link>
-          <href>https://raw.githubusercontent.com/s2underground/GhostMaps/main/Incident%20Response%20Products%20for%20ATAK%20%28KMZs%20and%20Documents%29/Iran%202026/Iran%20Kinetic%20Events/Iran_Kinetic_Events_October_5_2026_v1.kmz</href>
+          <href>https://raw.githubusercontent.com/s2underground/GhostMaps/main/Incident%20Response%20Products%20for%20ATAK%20%28KMZs%20and%20Documents%29/Iran%202026/Iran%20Kinetic%20Events/Iran_Kinetic_Events_October_10_2026_v2.kmz</href>
           <refreshMode>onInterval</refreshMode>
           <refreshInterval>3600</refreshInterval>
         </Link>
